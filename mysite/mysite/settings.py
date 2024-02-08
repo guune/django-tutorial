@@ -31,12 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #관리용 사이트
     "django.contrib.admin",
+    #인증시스템
     "django.contrib.auth",
+    #컨텐츠 타입을 위한 프레임워크
     "django.contrib.contenttypes",
+    #세션 프레임워크
     "django.contrib.sessions",
+    #메세지 프레임워크
     "django.contrib.messages",
+    #정적 파일을 관리하는 프렘임 워크
     "django.contrib.staticfiles",
+    "polls.apps.PollsConfig"
 ]
 
 MIDDLEWARE = [
@@ -105,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Seoul"
 
 USE_I18N = True
 
