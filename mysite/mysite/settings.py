@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "polls.apps.PollsConfig",
     #관리용 사이트
     "django.contrib.admin",
     #인증시스템
@@ -43,7 +44,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     #정적 파일을 관리하는 프렘임 워크
     "django.contrib.staticfiles",
-    "polls.apps.PollsConfig"
 ]
 
 MIDDLEWARE = [
