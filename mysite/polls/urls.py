@@ -2,6 +2,7 @@ from django.urls import path
 
 from . import views
 
+app_name = "polls"
 urlpatterns = [
     #path의 인자로 route와 view, 2개의 선택 가능한 인수로 kwargs, name
     #route : 요청된 URL을 각 패턴과 리스트의 순서대로 비교합니다
